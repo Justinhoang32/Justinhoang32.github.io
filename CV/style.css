@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #dcdcdc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 1000px;
+  min-height: 1000px;
+  margin: 50px;
+  background: #fff;
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  box-shadow: #2c3e50;
+}
+
+.left-profile {
+  position: relative;
+  padding: 40px;
+  background: #2c3e50;
+}
+
+.profile-text {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
+  border-bottom: 1px solid black;
+}
+
+.img-box {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.img-box img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.profile-text h2 {
+  color: #fff;
+  font-size: 1.5em;
+  margin-top: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 600;
+  line-height: 1.4em;
+}
+
+.profile-text p {
+  color: #fff;
+  font-size: 0.8em;
+  font-weight: 300;
+}
+
+.contact-info {
+  padding-top: 40px;
+}
+
+.title {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+
+}
+
+.contact-info ul {
+  position: relative;
+}
+
+.contact-info ul li {
+  list-style: none;
+  position: relative;
+  margin: 10px 0;
+  cursor: pointer;
+
+}
+
+.contact-info ul li .icon {
+  display: inline-block;
+  width: 30px;
+  font-size: 18px;
+  color: darkgrey;
+
+}
+
+.contact-info ul li span {
+  color: #fff;
+  font-weight: 300;
+
+}
+
+.contact-info.skills .percent {
+  position: relative;
+  width: 100%;
+  height: 6px;
+  background: #708090;
+  display: block;
+  margin-top: 5px;
+}
+
+.contact-info.skills .percent div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: #1c1c1c;
+}
+
+.right-profile {
+  position: relative;
+  padding: 40px;
+  background: #b5b5b5;
+
+}
+
+.about-profile {
+  margin-bottom: 50px;
+}
+
+.title2 {
+  position: relative;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+
+.title4 {
+  position: relative;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+
+.title3 {
+  position: relative;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
